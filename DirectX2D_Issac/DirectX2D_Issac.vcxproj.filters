@@ -8,20 +8,90 @@
     <ClInclude Include="Libraries\DirectXTex\DirectXTex.h">
       <Filter>Libraries\DirectXTex</Filter>
     </ClInclude>
+    <ClInclude Include="Libraries\ImGui\dirent\dirent.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGui\imconfig.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGui\imgui.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGui\imgui_impl_dx11.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGui\imgui_impl_win32.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGui\imgui_internal.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGui\ImGuiFileDialog.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGui\ImGuiFileDialogConfig.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGui\imstb_rectpack.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGui\imstb_textedit.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\ImGui\imstb_truetype.h">
+      <Filter>Libraries\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Base\SingleTon.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Buffer\DIndexBuffer.h">
+      <Filter>Framework\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System\DDevice.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System\DKeyboard.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\System\GameTime.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\DMainWindow.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Base\DScene.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\DSceneManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DirectX2D_Issac.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="DirectX2D_Issac1.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Library Include="Libraries\DirectXTex\ImGui.lib">
-      <Filter>Libraries\DirectXTex</Filter>
-    </Library>
-    <Library Include="Libraries\DirectXTex\DirectXTex.lib">
-      <Filter>Libraries\DirectXTex</Filter>
-    </Library>
+    <ClCompile Include="Framework\Base\SingleTon.cpp">
+      <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Buffer\DIndexBuffer.cpp">
+      <Filter>Framework\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\System\DDevice.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\System\DKeyboard.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\System\GameTime.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\DMainWindow.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Base\DScene.cpp">
+      <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\DSceneManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Libraries">
@@ -30,10 +100,36 @@
     <Filter Include="Libraries\DirectXTex">
       <UniqueIdentifier>{211b996b-bfdc-437a-af7b-379efdf20b9a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Libraries\ImGui">
+      <UniqueIdentifier>{1b6eec4f-ca45-431b-b1b8-cb8de06d04cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{85e2797b-ed4f-4dd1-acc8-4ab1a5068a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Base">
+      <UniqueIdentifier>{55604b84-c186-421f-a95c-4fb72248e2b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Buffer">
+      <UniqueIdentifier>{1b90a3c4-4779-42cf-af64-267b1caf3e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\System">
+      <UniqueIdentifier>{d9d90a66-f5c2-417d-9a4d-3517e75e34e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Manager">
+      <UniqueIdentifier>{a0c51a23-bba8-48fd-891b-00151ddc4201}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="Libraries\DirectXTex\DirectXTex.inl">
       <Filter>Libraries\DirectXTex</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libraries\DirectXTex\DirectXTex.lib">
+      <Filter>Libraries\DirectXTex</Filter>
+    </Library>
+    <Library Include="Libraries\DirectXTex\ImGui.lib">
+      <Filter>Libraries\DirectXTex</Filter>
+    </Library>
   </ItemGroup>
 </Project>
