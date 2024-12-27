@@ -1,7 +1,14 @@
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\DirectX2D_Issac.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DirectX2D_Issac.obj
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Base\DScene.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DScene.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Base\SingleTon.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\SingleTon.obj
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Base\Vector2.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\Vector2.obj
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Buffer\DConstantBuffer.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DConstantBuffer.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Buffer\DIndexBuffer.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DIndexBuffer.obj
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Buffer\DMatrixBuffer.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DMatrixBuffer.obj
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Buffer\DVertexBuffer.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DVertexBuffer.obj
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Buffer\GlobalBuffer.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\GlobalBuffer.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DMainWindow.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DMainWindow.obj
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DSceneManager.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DSceneManager.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\System\DDevice.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DDevice.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\System\DKeyboard.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DKeyboard.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\System\GameTime.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\GameTime.obj

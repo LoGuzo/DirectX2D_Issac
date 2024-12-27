@@ -65,6 +65,24 @@
     <ClInclude Include="Framework\Manager\DSceneManager.h">
       <Filter>Framework\Manager</Filter>
     </ClInclude>
+    <ClInclude Include="Framework\Buffer\DConstantBuffer.h">
+      <Filter>Framework\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Buffer\DMatrixBuffer.h">
+      <Filter>Framework\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Buffer\DVertexBuffer.h">
+      <Filter>Framework\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Buffer\GlobalBuffer.h">
+      <Filter>Framework\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Base\Vector3.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Base\Vector2.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DirectX2D_Issac.cpp" />
@@ -91,6 +109,21 @@
     </ClCompile>
     <ClCompile Include="Framework\Manager\DSceneManager.cpp">
       <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Buffer\DMatrixBuffer.cpp">
+      <Filter>Framework\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Buffer\DVertexBuffer.cpp">
+      <Filter>Framework\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Buffer\GlobalBuffer.cpp">
+      <Filter>Framework\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Buffer\DConstantBuffer.cpp">
+      <Filter>Framework\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Base\Vector2.cpp">
+      <Filter>Framework\Base</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

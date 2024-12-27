@@ -10,6 +10,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
                      _In_ int       nCmdShow)
 {
     MAIN->CreateGameWindow(hInstance, 1490, 950);
+    SCENEMGR->InitScene();
 
     // IMGUI Setting
     {
