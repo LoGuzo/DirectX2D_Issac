@@ -4,8 +4,10 @@ class SingleTon
 {
 protected:
 	SingleTon() {};
+
 public:
 	virtual ~SingleTon() {};
+
 public:
 	static T* GetInstance()
 	{

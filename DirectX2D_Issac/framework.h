@@ -80,6 +80,7 @@ typedef XMFLOAT4X4  MatrixF;
 #include  "Framework/Base/DScene.h"
 #include  "Framework/Base/Vector2.h"
 #include  "Framework/Base/Vector3.h"
+#include  "Framework/Base/MatrixUtil.h"
 
 #include  "Framework/Buffer/DConstantBuffer.h"
 #include  "Framework/Buffer/DVertexBuffer.h"
@@ -91,6 +92,8 @@ typedef XMFLOAT4X4  MatrixF;
 #include "Framework/System/GameTime.h"
 #include "Framework/System/DKeyboard.h"
 
+
+#include "Framework/Manager/DCamera.h"
 #include "Framework/Manager/DMainWindow.h"
 #include "Framework/Manager/DSceneManager.h"
 

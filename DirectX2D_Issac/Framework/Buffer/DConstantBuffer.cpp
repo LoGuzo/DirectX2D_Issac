@@ -39,7 +39,6 @@ void ConstantBuffer::SetData(void* InData, UINT InDataSize)
 	Data = InData;
 	DataSize = InDataSize;
 
-
 	D3D11_BUFFER_DESC      desc;
 	ZeroMemory(&desc, sizeof(D3D11_BUFFER_DESC));
 
@@ -47,7 +46,6 @@ void ConstantBuffer::SetData(void* InData, UINT InDataSize)
 	desc.CPUAccessFlags = D3D10_CPU_ACCESS_WRITE; // Dynamic일 경우
 	desc.ByteWidth = InDataSize;
 	desc.BindFlags = D3D11_BIND_CONSTANT_BUFFER;  // 정점,인덱스,Textue,상수
-
 
 	// 메모리주소하고 갯수를 Device를 Buffer를 만듬
 	HRESULT hr = DEVICE->CreateBuffer(&desc, nullptr, &Buffer);

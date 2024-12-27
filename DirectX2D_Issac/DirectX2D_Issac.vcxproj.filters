@@ -83,6 +83,12 @@
     <ClInclude Include="Framework\Base\Vector2.h">
       <Filter>Framework\Base</Filter>
     </ClInclude>
+    <ClInclude Include="Framework\Base\MatrixUtil.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\DCamera.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DirectX2D_Issac.cpp" />
@@ -124,6 +130,12 @@
     </ClCompile>
     <ClCompile Include="Framework\Base\Vector2.cpp">
       <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Base\MatrixUtil.cpp">
+      <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\DCamera.cpp">
+      <Filter>Framework\Manager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

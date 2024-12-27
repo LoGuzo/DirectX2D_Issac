@@ -174,6 +174,7 @@
     <ClInclude Include="DirectX2D_Issac.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="Framework\Base\DScene.h" />
+    <ClInclude Include="Framework\Base\MatrixUtil.h" />
     <ClInclude Include="Framework\Base\SingleTon.h" />
     <ClInclude Include="Framework\Base\Vector2.h" />
     <ClInclude Include="Framework\Base\Vector3.h" />
@@ -182,6 +183,7 @@
     <ClInclude Include="Framework\Buffer\DMatrixBuffer.h" />
     <ClInclude Include="Framework\Buffer\DVertexBuffer.h" />
     <ClInclude Include="Framework\Buffer\GlobalBuffer.h" />
+    <ClInclude Include="Framework\Manager\DCamera.h" />
     <ClInclude Include="Framework\Manager\DMainWindow.h" />
     <ClInclude Include="Framework\Manager\DSceneManager.h" />
     <ClInclude Include="Framework\System\DDevice.h" />
@@ -205,6 +207,7 @@
   <ItemGroup>
     <ClCompile Include="DirectX2D_Issac.cpp" />
     <ClCompile Include="Framework\Base\DScene.cpp" />
+    <ClCompile Include="Framework\Base\MatrixUtil.cpp" />
     <ClCompile Include="Framework\Base\SingleTon.cpp" />
     <ClCompile Include="Framework\Base\Vector2.cpp" />
     <ClCompile Include="Framework\Buffer\DConstantBuffer.cpp" />
@@ -212,6 +215,7 @@
     <ClCompile Include="Framework\Buffer\DMatrixBuffer.cpp" />
     <ClCompile Include="Framework\Buffer\DVertexBuffer.cpp" />
     <ClCompile Include="Framework\Buffer\GlobalBuffer.cpp" />
+    <ClCompile Include="Framework\Manager\DCamera.cpp" />
     <ClCompile Include="Framework\Manager\DMainWindow.cpp" />
     <ClCompile Include="Framework\Manager\DSceneManager.cpp" />
     <ClCompile Include="Framework\System\DDevice.cpp" />

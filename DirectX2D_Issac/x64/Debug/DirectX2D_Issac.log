@@ -1,16 +1,2 @@
-﻿  DirectX2D_Issac.cpp
-  DScene.cpp
-  SingleTon.cpp
-  Vector2.cpp
-  DConstantBuffer.cpp
-  DIndexBuffer.cpp
-  DMatrixBuffer.cpp
-  DVertexBuffer.cpp
-  GlobalBuffer.cpp
-  DMainWindow.cpp
-  DSceneManager.cpp
-  DDevice.cpp
-  DKeyboard.cpp
-  GameTime.cpp
-  코드를 생성하고 있습니다...
+﻿  DConstantBuffer.cpp
   DirectX2D_Issac.vcxproj -> D:\gitFork\DirectX2D_Issac\x64\Debug\DirectX2D_Issac.exe
