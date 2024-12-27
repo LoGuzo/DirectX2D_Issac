@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="DirectX2D_Issac.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="Libraries\DirectXTex\DirectXTex.h">
+      <Filter>Libraries\DirectXTex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX2D_Issac.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DirectX2D_Issac1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Libraries\DirectXTex\ImGui.lib">
+      <Filter>Libraries\DirectXTex</Filter>
+    </Library>
+    <Library Include="Libraries\DirectXTex\DirectXTex.lib">
+      <Filter>Libraries\DirectXTex</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{6cf45842-ab68-4c68-98e4-cdc77f7b52ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\DirectXTex">
+      <UniqueIdentifier>{211b996b-bfdc-437a-af7b-379efdf20b9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Libraries\DirectXTex\DirectXTex.inl">
+      <Filter>Libraries\DirectXTex</Filter>
+    </None>
+  </ItemGroup>
+</Project>
