@@ -5,6 +5,7 @@ class Vector3
 {
 public:
 	float x, y, z;
+
 public:
 	Vector3() { x = 0; y = 0; z = 0; };
 	Vector3(float xx) { x = xx; y = xx; z = xx; };

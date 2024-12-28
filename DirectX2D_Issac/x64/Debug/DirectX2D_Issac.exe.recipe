@@ -5,7 +5,23 @@
       <FullPath>D:\gitFork\DirectX2D_Issac\x64\Debug\DirectX2D_Issac.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
-  <ContentFiles />
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\gitFork\DirectX2D_Issac\x64\Debug\Color.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\gitFork\DirectX2D_Issac\x64\Debug\Instance.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\gitFork\DirectX2D_Issac\x64\Debug\Texture.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\gitFork\DirectX2D_Issac\x64\Debug\Tutorial.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\gitFork\DirectX2D_Issac\x64\Debug\WVP.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
   <SatelliteDlls />
   <NonRecipeFileRefs />
 </Project>

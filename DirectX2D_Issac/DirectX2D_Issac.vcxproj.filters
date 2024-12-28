@@ -89,6 +89,33 @@
     <ClInclude Include="Framework\Manager\DCamera.h">
       <Filter>Framework\Manager</Filter>
     </ClInclude>
+    <ClInclude Include="Framework\Base\DObject.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Base\DGameObject.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Collider\DCollider.h">
+      <Filter>Framework\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Collider\DQuadCollider.h">
+      <Filter>Framework\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Collider\DLineCollider.h">
+      <Filter>Framework\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Shader\DShader.h">
+      <Filter>Framework\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Shader\DVertexShader.h">
+      <Filter>Framework\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Shader\DPixelShader.h">
+      <Filter>Framework\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\DShaderManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DirectX2D_Issac.cpp" />
@@ -137,6 +164,33 @@
     <ClCompile Include="Framework\Manager\DCamera.cpp">
       <Filter>Framework\Manager</Filter>
     </ClCompile>
+    <ClCompile Include="Framework\Base\DObject.cpp">
+      <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Base\DGameObject.cpp">
+      <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Collider\DCollider.cpp">
+      <Filter>Framework\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Collider\DQuadCollider.cpp">
+      <Filter>Framework\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Collider\DLineCollider.cpp">
+      <Filter>Framework\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Shader\DShader.cpp">
+      <Filter>Framework\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Shader\DVertexShader.cpp">
+      <Filter>Framework\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Shader\DPixelShader.cpp">
+      <Filter>Framework\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\DShaderManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Libraries">
@@ -163,6 +217,15 @@
     <Filter Include="Framework\Manager">
       <UniqueIdentifier>{a0c51a23-bba8-48fd-891b-00151ddc4201}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Framework\Collider">
+      <UniqueIdentifier>{c72c24e5-2b2a-412f-aa00-c31ceb8399aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Shader">
+      <UniqueIdentifier>{8f572f85-b753-499a-a055-a3e2d97f1662}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{22ff0f70-d01b-45c7-a5eb-b7390cfab80c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="Libraries\DirectXTex\DirectXTex.inl">
@@ -176,5 +239,22 @@
     <Library Include="Libraries\DirectXTex\ImGui.lib">
       <Filter>Libraries\DirectXTex</Filter>
     </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\Color.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Instance.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Texture.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Tutorial.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\WVP.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>

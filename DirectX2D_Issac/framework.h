@@ -76,11 +76,16 @@ typedef XMFLOAT4X4  MatrixF;
 #define  SAFE_RELEASE(p)          {if(p) {(p)->Release(); (p)=NULL;}}
 #define  SAFE_DELETE_ARRAY(p)     {if(p) { delete [] (p); (p)=NULL;}}
 
+
 #include  "Framework/Base/SingleTon.h"
 #include  "Framework/Base/DScene.h"
 #include  "Framework/Base/Vector2.h"
 #include  "Framework/Base/Vector3.h"
 #include  "Framework/Base/MatrixUtil.h"
+#include  "Framework/Base/DObject.h"
+#include  "Framework/Base/DGameObject.h"
+
+extern   Vector2 GobalScale;
 
 #include  "Framework/Buffer/DConstantBuffer.h"
 #include  "Framework/Buffer/DVertexBuffer.h"
@@ -88,14 +93,21 @@ typedef XMFLOAT4X4  MatrixF;
 #include  "Framework/Buffer/DMatrixBuffer.h"
 #include  "Framework/Buffer/GlobalBuffer.h"
 
+#include  "Framework/Shader/DShader.h"
+#include  "Framework/Shader/DVertexShader.h"
+#include  "Framework/Shader/DPixelShader.h"
+
+#include  "Framework/Collider/DCollider.h"
+#include  "Framework/Collider/DLineCollider.h"
+
 #include "Framework/System/DDevice.h"
 #include "Framework/System/GameTime.h"
 #include "Framework/System/DKeyboard.h"
 
-
 #include "Framework/Manager/DCamera.h"
 #include "Framework/Manager/DMainWindow.h"
 #include "Framework/Manager/DSceneManager.h"
+#include "Framework/Manager/DShaderManager.h"
 
 #define   MAIN   MainWindow::GetInstance()
 #define   DEVICE DDevice::GetInstance()->GetDevice()

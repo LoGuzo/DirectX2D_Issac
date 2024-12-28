@@ -1,2 +1,34 @@
-﻿  DConstantBuffer.cpp
+﻿  compilation object save succeeded; see D:\gitFork\DirectX2D_Issac\x64\Debug\Color.cso
+  compilation object save succeeded; see D:\gitFork\DirectX2D_Issac\x64\Debug\Instance.cso
+  compilation object save succeeded; see D:\gitFork\DirectX2D_Issac\x64\Debug\Texture.cso
+  compilation object save succeeded; see D:\gitFork\DirectX2D_Issac\x64\Debug\Tutorial.cso
+  compilation object save succeeded; see D:\gitFork\DirectX2D_Issac\x64\Debug\WVP.cso
+  DirectX2D_Issac.cpp
+  DGameObject.cpp
+  DObject.cpp
+  DScene.cpp
+  MatrixUtil.cpp
+  SingleTon.cpp
+  Vector2.cpp
+  DConstantBuffer.cpp
+  DIndexBuffer.cpp
+  DMatrixBuffer.cpp
+  DVertexBuffer.cpp
+  GlobalBuffer.cpp
+  DCollider.cpp
+  DLineCollider.cpp
+  DQuadCollider.cpp
+  DCamera.cpp
+  DMainWindow.cpp
+  DSceneManager.cpp
+  DShaderManager.cpp
+  DPixelShader.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  DShader.cpp
+  DVertexShader.cpp
+  DDevice.cpp
+  DKeyboard.cpp
+  GameTime.cpp
+  코드를 생성하고 있습니다...
   DirectX2D_Issac.vcxproj -> D:\gitFork\DirectX2D_Issac\x64\Debug\DirectX2D_Issac.exe

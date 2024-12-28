@@ -173,6 +173,8 @@
   <ItemGroup>
     <ClInclude Include="DirectX2D_Issac.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="Framework\Base\DGameObject.h" />
+    <ClInclude Include="Framework\Base\DObject.h" />
     <ClInclude Include="Framework\Base\DScene.h" />
     <ClInclude Include="Framework\Base\MatrixUtil.h" />
     <ClInclude Include="Framework\Base\SingleTon.h" />
@@ -183,9 +185,16 @@
     <ClInclude Include="Framework\Buffer\DMatrixBuffer.h" />
     <ClInclude Include="Framework\Buffer\DVertexBuffer.h" />
     <ClInclude Include="Framework\Buffer\GlobalBuffer.h" />
+    <ClInclude Include="Framework\Collider\DCollider.h" />
+    <ClInclude Include="Framework\Collider\DLineCollider.h" />
+    <ClInclude Include="Framework\Collider\DQuadCollider.h" />
     <ClInclude Include="Framework\Manager\DCamera.h" />
     <ClInclude Include="Framework\Manager\DMainWindow.h" />
     <ClInclude Include="Framework\Manager\DSceneManager.h" />
+    <ClInclude Include="Framework\Manager\DShaderManager.h" />
+    <ClInclude Include="Framework\Shader\DPixelShader.h" />
+    <ClInclude Include="Framework\Shader\DShader.h" />
+    <ClInclude Include="Framework\Shader\DVertexShader.h" />
     <ClInclude Include="Framework\System\DDevice.h" />
     <ClInclude Include="Framework\System\DKeyboard.h" />
     <ClInclude Include="Framework\System\GameTime.h" />
@@ -206,6 +215,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DirectX2D_Issac.cpp" />
+    <ClCompile Include="Framework\Base\DGameObject.cpp" />
+    <ClCompile Include="Framework\Base\DObject.cpp" />
     <ClCompile Include="Framework\Base\DScene.cpp" />
     <ClCompile Include="Framework\Base\MatrixUtil.cpp" />
     <ClCompile Include="Framework\Base\SingleTon.cpp" />
@@ -215,9 +226,16 @@
     <ClCompile Include="Framework\Buffer\DMatrixBuffer.cpp" />
     <ClCompile Include="Framework\Buffer\DVertexBuffer.cpp" />
     <ClCompile Include="Framework\Buffer\GlobalBuffer.cpp" />
+    <ClCompile Include="Framework\Collider\DCollider.cpp" />
+    <ClCompile Include="Framework\Collider\DLineCollider.cpp" />
+    <ClCompile Include="Framework\Collider\DQuadCollider.cpp" />
     <ClCompile Include="Framework\Manager\DCamera.cpp" />
     <ClCompile Include="Framework\Manager\DMainWindow.cpp" />
     <ClCompile Include="Framework\Manager\DSceneManager.cpp" />
+    <ClCompile Include="Framework\Manager\DShaderManager.cpp" />
+    <ClCompile Include="Framework\Shader\DPixelShader.cpp" />
+    <ClCompile Include="Framework\Shader\DShader.cpp" />
+    <ClCompile Include="Framework\Shader\DVertexShader.cpp" />
     <ClCompile Include="Framework\System\DDevice.cpp" />
     <ClCompile Include="Framework\System\DKeyboard.cpp" />
     <ClCompile Include="Framework\System\GameTime.cpp" />
@@ -228,6 +246,58 @@
   <ItemGroup>
     <Library Include="Libraries\DirectXTex\DirectXTex.lib" />
     <Library Include="Libraries\DirectXTex\ImGui.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\Color.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VS</EntryPointName>
+    </FxCompile>
+    <FxCompile Include="Shaders\Instance.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VS</EntryPointName>
+    </FxCompile>
+    <FxCompile Include="Shaders\Texture.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VS</EntryPointName>
+    </FxCompile>
+    <FxCompile Include="Shaders\Tutorial.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VS</EntryPointName>
+    </FxCompile>
+    <FxCompile Include="Shaders\WVP.hlsl">
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
+      <ShaderType Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Vertex</ShaderType>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">VS</EntryPointName>
+      <EntryPointName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">VS</EntryPointName>
+    </FxCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

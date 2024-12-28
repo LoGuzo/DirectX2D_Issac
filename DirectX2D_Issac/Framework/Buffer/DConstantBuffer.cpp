@@ -58,7 +58,6 @@ void ConstantBuffer::Update()
 	DC->Map(Buffer, 0, D3D11_MAP_WRITE_DISCARD, 0, &subResource);
 	{
 		memcpy(subResource.pData, Data, DataSize);
-
 	}
 	DC->Unmap(Buffer, 0);
 }
