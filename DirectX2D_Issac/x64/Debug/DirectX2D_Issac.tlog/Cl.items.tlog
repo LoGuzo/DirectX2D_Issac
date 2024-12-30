@@ -14,9 +14,13 @@ D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Collider\DCollider.cpp;D:\g
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Collider\DLineCollider.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DLineCollider.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Collider\DQuadCollider.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DQuadCollider.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DCamera.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DCamera.obj
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DImageManager.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DImageManager.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DMainWindow.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DMainWindow.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DSceneManager.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DSceneManager.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DShaderManager.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DShaderManager.obj
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Render\DDirectWrite.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DDirectWrite.obj
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Render\DQuad.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DQuad.obj
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Render\DSprite.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DSprite.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Shader\DPixelShader.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DPixelShader.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Shader\DShader.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DShader.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Shader\DVertexShader.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DVertexShader.obj

@@ -95,12 +95,12 @@ void DDevice::ResizeBuffer()
 	if (width < 1 || height < 1)
 		return;
 	DeleteBuffer();
-	//DIRECT->DeleteBackBuffer();
+	DIRECT->DeleteBackBuffer();
 	{
 		HRESULT hr = SwapChain->ResizeBuffers(0, (UINT)width, (UINT)height, DXGI_FORMAT_UNKNOWN, 0);
 		assert(SUCCEEDED(hr));
 	}
-	//DIRECT->CreateBackBuffer();
+	DIRECT->CreateBackBuffer();
 	CreateBackBuffer(width, height);
 	SetViewPort();
 }

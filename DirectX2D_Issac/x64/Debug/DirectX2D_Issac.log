@@ -1,9 +1,4 @@
-﻿  compilation object save succeeded; see D:\gitFork\DirectX2D_Issac\x64\Debug\Color.cso
-  compilation object save succeeded; see D:\gitFork\DirectX2D_Issac\x64\Debug\Instance.cso
-  compilation object save succeeded; see D:\gitFork\DirectX2D_Issac\x64\Debug\Texture.cso
-  compilation object save succeeded; see D:\gitFork\DirectX2D_Issac\x64\Debug\Tutorial.cso
-  compilation object save succeeded; see D:\gitFork\DirectX2D_Issac\x64\Debug\WVP.cso
-  DirectX2D_Issac.cpp
+﻿  DirectX2D_Issac.cpp
   DGameObject.cpp
   DObject.cpp
   DScene.cpp
@@ -19,12 +14,16 @@
   DLineCollider.cpp
   DQuadCollider.cpp
   DCamera.cpp
+  DImageManager.cpp
   DMainWindow.cpp
   DSceneManager.cpp
   DShaderManager.cpp
-  DPixelShader.cpp
   코드를 생성하고 있습니다...
   컴파일하고 있습니다...
+  DDirectWrite.cpp
+  DQuad.cpp
+  DSprite.cpp
+  DPixelShader.cpp
   DShader.cpp
   DVertexShader.cpp
   DDevice.cpp

@@ -189,9 +189,13 @@
     <ClInclude Include="Framework\Collider\DLineCollider.h" />
     <ClInclude Include="Framework\Collider\DQuadCollider.h" />
     <ClInclude Include="Framework\Manager\DCamera.h" />
+    <ClInclude Include="Framework\Manager\DImageManager.h" />
     <ClInclude Include="Framework\Manager\DMainWindow.h" />
     <ClInclude Include="Framework\Manager\DSceneManager.h" />
     <ClInclude Include="Framework\Manager\DShaderManager.h" />
+    <ClInclude Include="Framework\Render\DDirectWrite.h" />
+    <ClInclude Include="Framework\Render\DQuad.h" />
+    <ClInclude Include="Framework\Render\DSprite.h" />
     <ClInclude Include="Framework\Shader\DPixelShader.h" />
     <ClInclude Include="Framework\Shader\DShader.h" />
     <ClInclude Include="Framework\Shader\DVertexShader.h" />
@@ -230,9 +234,13 @@
     <ClCompile Include="Framework\Collider\DLineCollider.cpp" />
     <ClCompile Include="Framework\Collider\DQuadCollider.cpp" />
     <ClCompile Include="Framework\Manager\DCamera.cpp" />
+    <ClCompile Include="Framework\Manager\DImageManager.cpp" />
     <ClCompile Include="Framework\Manager\DMainWindow.cpp" />
     <ClCompile Include="Framework\Manager\DSceneManager.cpp" />
     <ClCompile Include="Framework\Manager\DShaderManager.cpp" />
+    <ClCompile Include="Framework\Render\DDirectWrite.cpp" />
+    <ClCompile Include="Framework\Render\DQuad.cpp" />
+    <ClCompile Include="Framework\Render\DSprite.cpp" />
     <ClCompile Include="Framework\Shader\DPixelShader.cpp" />
     <ClCompile Include="Framework\Shader\DShader.cpp" />
     <ClCompile Include="Framework\Shader\DVertexShader.cpp" />

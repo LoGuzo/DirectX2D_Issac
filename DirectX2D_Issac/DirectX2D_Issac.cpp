@@ -11,7 +11,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 {
     MAIN->CreateGameWindow(hInstance, 1490, 950);
     SCENEMGR->InitScene();
-
+    DIRECT;
     // IMGUI Setting
     {
         IMGUI_CHECKVERSION();
