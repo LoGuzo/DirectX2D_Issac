@@ -16,6 +16,8 @@ D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Collider\DQuadCollider.cpp;
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DCamera.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DCamera.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DImageManager.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DImageManager.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DMainWindow.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DMainWindow.obj
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DObjectManager.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DObjectManager.obj
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DObserverCollision.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DObserverCollision.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DSceneManager.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DSceneManager.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DShaderManager.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DShaderManager.obj
 D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Render\DDirectWrite.cpp;D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\x64\Debug\DDirectWrite.obj

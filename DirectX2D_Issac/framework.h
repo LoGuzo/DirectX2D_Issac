@@ -113,6 +113,8 @@ extern   Vector2 GobalScale;
 #include "Framework/Manager/DSceneManager.h"
 #include "Framework/Manager/DShaderManager.h"
 #include "Framework/Manager/DImageManager.h"
+#include "Framework/Manager/DObjectManager.h"
+#include "Framework/Manager/DObserverCollision.h"
 
 #define   MAIN   MainWindow::GetInstance()
 #define   DEVICE DDevice::GetInstance()->GetDevice()

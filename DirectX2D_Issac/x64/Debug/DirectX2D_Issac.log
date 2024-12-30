@@ -16,10 +16,13 @@
   DCamera.cpp
   DImageManager.cpp
   DMainWindow.cpp
-  DSceneManager.cpp
-  DShaderManager.cpp
+  DObjectManager.cpp
+  DObserverCollision.cpp
+D:\gitFork\DirectX2D_Issac\DirectX2D_Issac\Framework\Manager\DObserverCollision.cpp(59,16): warning C4101: 'item' :참조되지 않은 지역 변수입니다.
   코드를 생성하고 있습니다...
   컴파일하고 있습니다...
+  DSceneManager.cpp
+  DShaderManager.cpp
   DDirectWrite.cpp
   DQuad.cpp
   DSprite.cpp

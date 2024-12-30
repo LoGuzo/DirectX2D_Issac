@@ -59,12 +59,6 @@
     <ClInclude Include="Framework\Manager\DMainWindow.h">
       <Filter>Framework\Manager</Filter>
     </ClInclude>
-    <ClInclude Include="Framework\Base\DScene.h">
-      <Filter>Framework\Base</Filter>
-    </ClInclude>
-    <ClInclude Include="Framework\Manager\DSceneManager.h">
-      <Filter>Framework\Manager</Filter>
-    </ClInclude>
     <ClInclude Include="Framework\Buffer\DConstantBuffer.h">
       <Filter>Framework\Buffer</Filter>
     </ClInclude>
@@ -128,6 +122,18 @@
     <ClInclude Include="Framework\Manager\DImageManager.h">
       <Filter>Framework\Manager</Filter>
     </ClInclude>
+    <ClInclude Include="Framework\Manager\DObjectManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\DObserverCollision.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Base\DScene.h">
+      <Filter>Framework\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Manager\DSceneManager.h">
+      <Filter>Framework\Manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DirectX2D_Issac.cpp" />
@@ -147,12 +153,6 @@
       <Filter>Framework\System</Filter>
     </ClCompile>
     <ClCompile Include="Framework\Manager\DMainWindow.cpp">
-      <Filter>Framework\Manager</Filter>
-    </ClCompile>
-    <ClCompile Include="Framework\Base\DScene.cpp">
-      <Filter>Framework\Base</Filter>
-    </ClCompile>
-    <ClCompile Include="Framework\Manager\DSceneManager.cpp">
       <Filter>Framework\Manager</Filter>
     </ClCompile>
     <ClCompile Include="Framework\Buffer\DMatrixBuffer.cpp">
@@ -213,6 +213,18 @@
       <Filter>Framework\Render</Filter>
     </ClCompile>
     <ClCompile Include="Framework\Manager\DImageManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\DObjectManager.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\DObserverCollision.cpp">
+      <Filter>Framework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Base\DScene.cpp">
+      <Filter>Framework\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Manager\DSceneManager.cpp">
       <Filter>Framework\Manager</Filter>
     </ClCompile>
   </ItemGroup>

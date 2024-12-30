@@ -191,6 +191,8 @@
     <ClInclude Include="Framework\Manager\DCamera.h" />
     <ClInclude Include="Framework\Manager\DImageManager.h" />
     <ClInclude Include="Framework\Manager\DMainWindow.h" />
+    <ClInclude Include="Framework\Manager\DObjectManager.h" />
+    <ClInclude Include="Framework\Manager\DObserverCollision.h" />
     <ClInclude Include="Framework\Manager\DSceneManager.h" />
     <ClInclude Include="Framework\Manager\DShaderManager.h" />
     <ClInclude Include="Framework\Render\DDirectWrite.h" />
@@ -236,6 +238,8 @@
     <ClCompile Include="Framework\Manager\DCamera.cpp" />
     <ClCompile Include="Framework\Manager\DImageManager.cpp" />
     <ClCompile Include="Framework\Manager\DMainWindow.cpp" />
+    <ClCompile Include="Framework\Manager\DObjectManager.cpp" />
+    <ClCompile Include="Framework\Manager\DObserverCollision.cpp" />
     <ClCompile Include="Framework\Manager\DSceneManager.cpp" />
     <ClCompile Include="Framework\Manager\DShaderManager.cpp" />
     <ClCompile Include="Framework\Render\DDirectWrite.cpp" />
